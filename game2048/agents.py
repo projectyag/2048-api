@@ -24,6 +24,8 @@ class Agent:
     def step(self):
         direction = int(input("0: left, 1: down, 2: right, 3: up = ")) % 4
         return direction
+        direction = some_function(self.game)
+        return direction
 
 
 class RandomAgent(Agent):
